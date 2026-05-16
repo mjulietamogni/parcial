@@ -25,7 +25,7 @@ h3 {
     font-weight: 700;
     font-style: normal;
     background-color: rgba(199, 199, 199, 0.863);
-    color: rgb(11, 12, 19);
+    color: rgb(1, 9, 66);
 }
 
 h4 {
@@ -51,6 +51,8 @@ iframe {
     max-width: 100%;
     display: block;
     margin: auto;
+    height: 30rem;
+    width: 40rem;
 
 }
 
@@ -86,36 +88,45 @@ article ul {
 }
 
 /*Menú de navegacion*/
+  
+nav ul {
+    margin: 5%;
+    padding: 0%;
+    list-style-type: none;
+    
+}
+
+nav li {
+   display: inline-block;
+   
+      
+}
+
+
 nav a {
    text-decoration: none;
    font-size: 1.2rem;
-   
+   line-height: 1rem;
+   padding: 1rem;
+   text-align: center;
     
-}   
-nav ul {
-    display: flex; /*mueve a todo como un bloque*/
-    justify-content: center; 
-    list-style-type: none;
-    gap: 20px; /*espacio estre los titulos de los links*/
-    
-  
-}
+} 
 
-a:link {
-    color: #03745d;
+nav a:link {
+    color: #000000;
     
 }
 
-a:visited {
-    color: #03745d;
+nav a:visited {
+    color: #08497a;
 }
 
-a:hover {
-    color: #be4dbe;
+nav a:hover {
+    color: #7f07f0;
 }
 
-a:active {
-    color: #be4dbe;
+nav a:active {
+    color: #007419;
 }
 
 /*Pie de página*/
