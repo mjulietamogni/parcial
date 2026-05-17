@@ -7,43 +7,47 @@ body {
     
 }
 
-header h1, header h2 {
-  font-size: 2.5rem;
+/*Títulos y encabezados*/
+
+h1, h2, h3, h4 {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
   font-style: normal;
-  /*background-color: rgb(212, 212, 212);*/
+  text-align: center;
+  
 }
   
+h1 {
+    font-size: 3rem;
+}
 
-h3, h4 {
-    font-size: 1.5rem;
-    text-align: center;
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}    
+h2 {
+    font-size: 2.5rem;
+}
 
 h3 {
+    font-size: 2rem;
     background-color: rgba(199, 199, 199, 0.863);
     color: rgb(1, 9, 66);
 }
 
-h5 {
-    font-size: 1.2rem
-}
 
+h4 {
+    font-size: 1.5rem;
+  
+}    
 
+/*Contenedor*/
 
 .contenedor-principal {
     max-width: 1290px;
     margin: auto;
-    background-color: rgb(128, 204, 248);
+    background-color: rgb(98, 161, 197);
     text-align: center;
     padding: 5%;
-    
-        
 }
+
+/*Lista*/
 
 .lista-conceptos li { 
     display: block;
@@ -70,7 +74,6 @@ iframe {
 }
 
 /*Imágenes*/
-
 img {
     margin-top: 1%;
     margin-right: auto;
@@ -86,14 +89,6 @@ img {
     justify-content: center;
 }
 
-.imagenes img { /*aplico los estilos a las dos imágenes*/
-    max-width: 100%;
-    height: auto;
-    border-radius: 2%;
-   
-}
-
-
 .laurie {
     display: flex;
     justify-content: center;
@@ -103,12 +98,10 @@ img {
     width: auto;
     height: 18rem;
     margin: 1rem;
-    
-        
+       
 }
 
 /*Secciones*/
-
 section p, article p {
     font-size: 1.2rem;
     text-align: justify;
@@ -117,7 +110,6 @@ section p, article p {
 }
 
 /*Menú de navegacion*/
-  
 nav ul {
     margin: 5%;
     padding: 0%;
@@ -135,19 +127,15 @@ nav li {
 nav a {
    text-decoration: none;
    font-size: 1.2rem;
-   line-height: 1rem;
-   padding: 1rem;
+   padding: 1.5rem;
    text-align: center;
    background-color: rgb(230, 209, 184);
     
 } 
 
 /*Links*/
-
-
-
 nav a:link {
-    color: #000000;
+    color: #ffffff;
     background-color: #43047e;
 }
 
@@ -157,12 +145,13 @@ nav a:visited {
 }
 
 nav a:hover {
-    color: #18048f;
+    color: #ffffff;
     background-color: #9f54eb;
 }
 
 nav a:active {
-    color: #014d11;
+    color: #ffffff;
+    background-color: #073ea5;
 }
 
 /*Pie de página*/
