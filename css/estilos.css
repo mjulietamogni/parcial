@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    }
+}
 
 body {
     background-image: url('../img/fondo.png');
@@ -40,11 +40,11 @@ h4 {
 /*Contenedor*/
 
 .contenedor-principal {
-    max-width: 1290px;
+    max-width: 1150px;
     margin: auto;
     background-color: rgb(98, 161, 197);
     text-align: center;
-    padding: 5%;
+    padding: 1%;
 }
 
 /*Lista*/
